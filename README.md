@@ -51,6 +51,14 @@ The code contains the following functions:
 - If you encounter any issues, ensure that the circuit connections are correct and the components are properly functioning.
 - Double-check the thermistor specifications and adjust the constants accordingly.
 
+## Contributing
+
+Contributions to this repository are welcome. If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
 ## Acknowledgments
 
 This code was developed based on the requirements of the temperature control system using thermistors.
+
+## Disclaimer
+
+Please note that this code is provided as-is and without any warranty. Use it at your own risk.

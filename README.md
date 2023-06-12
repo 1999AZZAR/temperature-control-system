@@ -33,6 +33,27 @@ The code contains the following functions:
 - `loop()`: Continuously reads the temperature from both thermistors, calculates the average temperature, calculates the PWM ratio, sets the PWM output, and prints the temperature and PWM values to the Serial Monitor. It then waits for one second before taking the next reading.
 - `readTemperature(int pin)`: Reads the analog value from the specified thermistor pin, converts it to resistance, and calculates the temperature in Celsius using the Steinhart-Hart equation.
 
+## Flowchart 
+
+```mermaid
+graph TD
+    A[Start] --> B[Setup]
+    B --> C[Loop]
+    C --> D[Read temperature from thermistors]
+    D --> E[Calculate average temperature]
+    E --> F[Calculate PWM ratio]
+    F --> G[Calculate PWM value]
+    G --> H[Set PWM output]
+    H --> I[Print temperature and PWM values]
+    I --> J[Delay]
+    J --> C
+    C --> K[End]
+
+    subgraph Functions
+        D --> readTemperature
+    end
+```
+
 ## Running the Code
 
 1. Connect the thermistors, resistors, and PWM output device according to the circuit connections mentioned above.

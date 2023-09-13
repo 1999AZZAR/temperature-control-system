@@ -1,5 +1,7 @@
 # Temperature Control System
 
+[![CodeFactor](https://www.codefactor.io/repository/github/1999azzar/temperature-control-system/badge)](https://www.codefactor.io/repository/github/1999azzar/temperature-control-system)
+
 This code is an Arduino sketch for a temperature control system using a thermistor. It reads the temperature from two thermistors, calculates the average temperature, and adjusts a PWM (Pulse Width Modulation) output based on the desired temperature.
 
 ## Requirements
